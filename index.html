@@ -4,7 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Title</title>
-  
+  <script language="javascript">
+        document.addEventListener('keydown', function(event) {
+            if(event.keyCode == 49) {
+                window.open(document.getElementById("a0").href, '_blank');
+            }
+            else if(event.keyCode == 50) {
+                window.open(document.getElementById("a1").href, '_blank');
+            }
+            else if (event.keyCode == 51) {
+                window.open(document.getElementById("a2").href, '_blank');
+            }
+            else if (event.keyCode == 52) {
+                window.open(document.getElementById("a3").href, '_blank');
+            }
+          else if (event.keyCode == 53) {
+                window.open(document.getElementById("a4").href, '_blank');
+            }
+        });
+    </script>
 </head>
 
 <style>
@@ -27,11 +45,11 @@
 
 <body>
   <div id=cent> 
-    <p><a href="https://isis.tu-berlin.de/course/view.php?id=21032">Rechnernetze und verteilte Systeme</a></p>
-    <p><a href="https://isis.tu-berlin.de/course/view.php?id=20735">Softwaretechnik und Programmierparadigmen</a></p>
-    <p><a href="https://isis.tu-berlin.de/course/view.php?id=20797">Wissenschaftliches Rechnen</a></p>
-    <p><a href="https://isis.tu-berlin.de/course/view.php?id=21207">Logik</a></p>
-    <p><a href="https://isis.tu-berlin.de/course/view.php?id=20975">Berechenbarkeit und Komplexität</a></p>  
+    <p><a id="a0" href="https://isis.tu-berlin.de/course/view.php?id=21032">Rechnernetze und verteilte Systeme</a></p>
+    <p><a id="a1" href="https://isis.tu-berlin.de/course/view.php?id=20735">Softwaretechnik und Programmierparadigmen</a></p>
+    <p><a id="a2" href="https://isis.tu-berlin.de/course/view.php?id=20797">Wissenschaftliches Rechnen</a></p>
+    <p><a id="a3" href="https://isis.tu-berlin.de/course/view.php?id=21207">Logik</a></p>
+    <p><a id="a4" href="https://isis.tu-berlin.de/course/view.php?id=20975">Berechenbarkeit und Komplexität</a></p>  
   </div>
 </body>
 
